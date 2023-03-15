@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="bg.jpg" alt="" id="bg">
+        <img src="books.png" alt="" id="books">
+        <img src="books.png" alt="" id="books" class="ra books">
+        <img src="books.png" alt="" id="books" class="ra book">
+        <img src="books.png" alt="" id="books" class="ra boo">
+        <img src="bharat.png" alt="" id="bharat"class="ra" width="450px">
+        <img src="amitesh.png" alt="" id="amitesh" class="r">
+        <img src="kiran.png" alt="" id="kiran"class="ra">
+    </section>
+    <div class="sec">
+        <div class="content">
+            <h2>Designed by Amitesh Vashishth</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis facilis aspernatur, atque recusandae, voluptas laborum dignissimos quisquam quam eaque, quas tempore eum maxime! Sapiente eligendi quidem error, ipsa praesentium aliquam itaque. Vero aspernatur ex facere odio fugiat ad magni ratione cupiditate natus ducimus atque at optio reprehenderit animi, odit corporis voluptatum laborum nihil recusandae, cum corrupti. Sit, et odit rerum, vel veniam eligendi sapiente vitae quasi aperiam provident laboriosam asperiores modi esse minus accusantium? Voluptatibus, vero ipsum. Laudantium ducimus pariatur, natus perspiciatis officiis modi? Repudiandae beatae suscipit fugiat unde optio facere iure itaque dignissimos animi maiores? Sed eius voluptate fuga, error repudiandae culpa ipsam labore deserunt numquam aspernatur alias aliquid blanditiis rerum quisquam illo dolores dolorum suscipit vero? Dolor tempore minima saepe ratione pariatur consectetur velit at illo voluptate, beatae quibusdam sint sunt cumque exercitationem cum necessitatibus nemo doloribus molestias nobis commodi. Temporibus ex similique eveniet quisquam voluptatem cupiditate perferendis et earum doloremque voluptates architecto laborum, tempore saepe distinctio nihil ipsum quaerat neque atque odio cum suscipit natus! Ab qui corporis quas quos magnam vel ipsam harum non distinctio pariatur, voluptatum iure dolorem nostrum veritatis at neque est dolorum necessitatibus eius, eos voluptatem officiis a. Perferendis quis vel iste itaque minima quaerat repellat adipisci aliquam hic fuga unde, voluptates laborum id voluptatibus nemo dignissimos officiis delectus ea magni accusamus. Officia molestias modi error quod alias delectus numquam aliquam illo repellendus ut libero repellat accusantium dolor eius temporibus, doloribus eos. Enim nisi quae ratione, vero laboriosam quod praesentium. Dolor odit deserunt ab nesciunt enim dignissimos. Accusamus quidem mollitia voluptatibus nam placeat a dolorum. Officiis esse molestiae rem facilis exercitationem voluptatibus ducimus cum ipsum dolor. Asperiores maiores, obcaecati laboriosam pariatur tempore provident velit, ab aspernatur quod odit distinctio nisi fugit voluptatem quisquam quas aperiam vel facilis iure et consequuntur aliquid necessitatibus ipsa?</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.to("#amitesh",{
+            scrollTrigger :{
+                scrub:1.0,
+            },
+            x : 1500,
+        })
+
+        gsap.from("#kiran",{
+            scrollTrigger :{
+                scrub:3.0,
+            },
+            x :2300,
+        })
+
+        gsap.from("#bharat",{
+            scrollTrigger :{
+                scrub:0.5,
+            },
+            x :800,
+        })
+        gsap.to("#books",{
+            scrollTrigger :{
+                scrub:0.5,
+            },
+           scale :1.5,
+        })
+    </script>
+</body>
+</html>
